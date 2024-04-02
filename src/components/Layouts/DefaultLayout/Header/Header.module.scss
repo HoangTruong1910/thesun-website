@@ -9,5 +9,26 @@
 .inner{
     height: 100%;
     width: var(--default-layout-width);
-    background-color: #ccc;
+    background-color: #a3a1a1;
+}
+
+.logo{
+    max-width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo h3 {
+    font-family:  "Lobster", sans-serif;
+    background: linear-gradient(to left, #eecb03, #FFA500, #FF6347, #FF7F50, #FF4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
 }
