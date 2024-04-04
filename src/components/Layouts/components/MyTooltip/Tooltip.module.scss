@@ -1,0 +1,26 @@
+.custome-tooltip{
+    min-width: 50px;
+    min-height: 40px;
+    border-radius: 10px;
+    background: linear-gradient(to left, #FFA500,#FF9800, #FF7F50 , #FF6347);
+    box-shadow: rgb(0 0 0 / 12%) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Lobster',sans-serif;
+    font-weight: bold;
+    color : var(--white-color);
+    opacity: 0; /* Đặt opacity ban đầu là 0 */
+    visibility: hidden; /* Ẩn Tippy ban đầu */
+    animation: fadeIn 0.8s ease-in-out forwards; /* Sử dụng animation để hiển thị Tippy */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
